@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../imagens/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 650px;
+}
+
+nav{
+    padding-top: 1px;
+}
+
+ul{
+    margin: 20px 30px 0 0;
+    list-style-type: none;
+    text-align: right;
+    
+}
+
+li{
+    display: inline-block;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.362);
+    padding: 15px;
+    border: 1px solid aliceblue;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+
+.link-menu:hover{
+    background-color: rgba(0, 0, 0, 0.547);
+}
+
+h1{
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 210px;
+    margin-bottom: 80px;
+}
+
+h2{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    margin: 30px 130px;
+    padding: 10px 25px;
+    min-width: 200px;
+}
+
+section h3{
+    background-color: #eaeaea;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+section p{
+    text-align: justify;
+}
+
+.saiba-mais{
+    display: block;
+    background-color: #bababa;
+    color: blue;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.saiba-mais:hover{
+    background-color: #ccc;
+}
+
+.saiba-mais:active{
+    background-color: #eaeaea;
+}
+
+footer{
+    background-color: #8d8d8d;
+    margin-bottom: 0;
+    padding: 20px;
+    /* width: 100%; */
+}
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px black;
+}
